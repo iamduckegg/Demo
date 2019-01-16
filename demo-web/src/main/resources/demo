@@ -1,0 +1,10 @@
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键',
+  `username` varchar(50) DEFAULT NULL COMMENT '用户名',
+  `password` varchar(50) DEFAULT NULL COMMENT '密码',
+  `realname` varchar(50) DEFAULT NULL COMMENT '真实名字',
+	`status` VARCHAR(4)	DEFAULT NULL COMMENT '状态',
+	`create_user` VARCHAR(50) DEFAULT NULL COMMENT '创建人',
+	`create_date` datetime DEFAULT NULL	COMMENT '创建时间',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
