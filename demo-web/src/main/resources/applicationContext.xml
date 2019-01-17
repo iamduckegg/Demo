@@ -27,7 +27,17 @@
 	<!-- <mvc:default-servlet-handler /> -->
 	
 	
-
+	<!-- 配置拦截器 -->
+    <mvc:interceptors>
+        <!-- 配置登陆拦截器 -->
+        <mvc:interceptor>
+            <!--拦截后台页面的请求-->
+            <mvc:mapping path="/"/>
+            <!--不拦截登录页和登录的请求-->
+            <mvc:exclude-mapping path="/demo/login"/>
+            <bean class="com.zx.login.LoginInterceptor"></bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
     
     <!-- 注解的处理器适配器 -->
 	<!-- <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"/> -->

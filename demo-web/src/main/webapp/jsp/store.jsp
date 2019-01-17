@@ -8,17 +8,7 @@
 <title>首页</title>
 </head>
 <body>
-您已经登录
-<form action="/demo/loginOut">
-	<button id="btn-loginout" value="">登出</button>
-</form>
+其他页面
 
 </body>
-<script type="text/javascript">
-$(function(){
-	$("#btn-loginout").submit()	
-	
-})
-
-</script>
 </html>
