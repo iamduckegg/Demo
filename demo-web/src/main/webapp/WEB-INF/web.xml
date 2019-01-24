@@ -4,13 +4,13 @@
 	<display-name>demo-web</display-name>
 	
 	<!-- 不拦截静态资源 -->
-<!-- 	<servlet-mapping>    
+	<servlet-mapping>    
 		<servlet-name>default</servlet-name>    
 		<url-pattern>*.js</url-pattern>    
 		<url-pattern>*.css</url-pattern>    
 		<url-pattern>/assets/*"</url-pattern>    
 		<url-pattern>/images/*</url-pattern>    
-	</servlet-mapping>  -->
+	</servlet-mapping>
 	
 	
 	<!-- 配置加载Spring文件的监听器-->
