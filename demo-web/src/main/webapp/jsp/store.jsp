@@ -5,7 +5,7 @@
 <head>
 <jsp:include page="../common/js/index.js"></jsp:include>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>首页</title>
+<title>商场页</title>
 </head>
 <body>
 其他页面

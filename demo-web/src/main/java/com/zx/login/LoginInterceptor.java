@@ -31,7 +31,7 @@ public class LoginInterceptor implements HandlerInterceptor{
 			return true; 
 		} 
 		//如果登录状态为空则重定向到登录页面，并返回false，不执行原来controller的方法 
-		response.sendRedirect("demo/login"); 
+		request.getRequestDispatcher("/jsp/login.jsp").forward(request, response);
 		return false; 
 	} 
 
